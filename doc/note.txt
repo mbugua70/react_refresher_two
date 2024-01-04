@@ -1,0 +1,21 @@
+//YOU DONT HAVE TO USE THE JSX
+
+// we will use createElement () method.
+// examples
+
+e.g
+   <div id="content">
+     <p> Hello world </p>
+     </div>
+
+     // no JSX
+
+     React.createElement(
+        'div',
+        { id: 'content'}, --- props objects (set component props)
+        React.createElement(
+            'p',
+            'null',
+            'Hello world'
+        )
+     );
